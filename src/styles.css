@@ -1,9 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
+  padding: 20px;
 }
 
-nav span {
-  cursor: pointer;
-  font-weight: bold;
+nav {
+  margin-bottom: 20px;
+}
+
+a {
+  margin-right: 15px;
+  text-decoration: none;
 }
