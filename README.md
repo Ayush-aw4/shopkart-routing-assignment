@@ -1,16 +1,23 @@
-# ShopKart Frontend Starter
+# ShopNest Routing Challenge
 
 ## Objective
 
-Implement routing and deploy application.
+Implement routing in this React application.
 
 ## Tasks
 
-- Implement Routing
-- Update Navigation
-- Deploy Application
-- Add Deployment URL
+1. Install react-router-dom
+2. Implement routing
+3. Fix Navbar navigation
+4. Deploy to Vercel
+5. Add Deployment URL below
+
+## Pages
+
+- Home (/)
+- About (/about)
+- Contact (/contact)
 
 ## Deployment URL
 
-(Add your deployed URL here)
+Add your deployed URL here:
