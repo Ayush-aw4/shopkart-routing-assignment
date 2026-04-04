@@ -3,8 +3,8 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <h2>Contact Page</h2>
-      <p>Contact ShopKart Team</p>
+      <h1>Contact Us</h1>
+      <p>This is the Contact Page</p>
     </div>
   );
 }
