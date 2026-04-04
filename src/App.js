@@ -1,27 +1,18 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-
-// TODO 1: Import BrowserRouter, Routes, Route
-// TODO 2: Import About and Contact pages
+// TODO: Import About
+// TODO: Import Contact
+// TODO: Import React Router
 
 function App() {
   return (
     <div>
-      {/* TODO 3: Wrap inside BrowserRouter */}
-
       <Navbar />
-
-      {/* TODO 4: Replace Home with Routes */}
+      
+      {/* TODO: Implement Routing Here */}
+      
       <Home />
-
-      {/* 
-        Create routes:
-        "/" → Home
-        "/about" → About
-        "/contact" → Contact
-      */}
-
     </div>
   );
 }
