@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>ShopKart</title>
-</head>
-<body>
-  <div id="root"></div>
-</body>
-</html>
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./styles.css";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
