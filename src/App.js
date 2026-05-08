@@ -6,21 +6,23 @@ import Home from "./pages/Home";
 // TODO: Import React Router
 import about from "./pages/About";
 import contact from "./pages/Contact";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes } from "react-router-dom";
 function App() {
   return (
     <div>
+      <BrowserRouter>
       <Navbar />
-      <Router>
-        <Switch>
+      <Routes>
+        
           <Route exact path="/" component={Home} />
           <Route path="/about" component={about} />
           <Route path="/contact" component={contact} />
-        </Switch>
-      </Router>
+        
+      </Routes>
       {/* TODO: Implement Routing Here */}
       
       <Home />
+      </BrowserRouter>
     </div>
   );
 }
